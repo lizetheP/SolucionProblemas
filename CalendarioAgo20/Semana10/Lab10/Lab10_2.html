@@ -1,17 +1,10 @@
-<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+﻿<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
 <html>
 <head>
                                                                         
    
-  <meta http-equiv="Content-Type"
- content="text/html; charset=iso-8859-1">
-                                                                        
-   
-  <meta name="Author" content="JHZR">
-                                                                        
-   
-  <meta name="GENERATOR"
- content="Mozilla/4.79 [en] (WinNT; U) [Netscape]">
+        <meta content="es-mx" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
   <title>Calendario</title>
                                                                         
                                                           
@@ -6407,6 +6400,77 @@
 
 
 
+  .auto-style1 {
+	  color: #0000FF;
+	  font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </style>
 </head>
   <body>
@@ -6426,7 +6490,7 @@
                                                                         
                                                    
             <div align="right"><b><font face="Arial,Helvetica"><font
- color="#330033"><font size="+1">Laboratorio 10. Matrices&nbsp;</font></font></font></b></div>
+ color="#330033"><font size="+1">Laboratorio: Matrices&nbsp;</font></font></font></b></div>
                    </td>
                     <td><img src="imageQQF.JPG" height="117" width="115">
                               </td>
@@ -6462,8 +6526,8 @@
                                                                         
                                
       <p><font face="Arial,Helvetica"><font color="#333333"><font
- size="-1">Que apliques los conocimientos sobre la declaraci&oacute;n y uso
-         de matrices, adem&aacute;s de repasar el tema de ciclos.</font></font></font> 
+ size="-1">Que apliques los conocimientos sobre la declaración y uso de 
+	  matrices, además de repasar el tema de ciclos.</font></font></font> 
                <br>
                    </p>
                                                                         
@@ -6473,7 +6537,7 @@
  align="left">
                    <br>
                         <b><font face="Arial,Helvetica"><font
- color="#330033">Forma    de  trabajo:</font></font></b>                
+ color="#330033">Forma de trabajo:</font></font></b>                
                                                                         
                                       
       <p><font face="Arial,Helvetica"><font color="#333333"><font
@@ -6486,7 +6550,7 @@
                    <br>
                         <b><font face="Arial,Helvetica"><font
  color="#330033">Instrucciones:</font></font></b>              <br>
-                  &nbsp;                                                
+                   &nbsp;                                                
                                                                         
      
       <ul>
@@ -6494,26 +6558,9 @@
                                                                         
                                    
         <ul>
-                   <li> <font face="Arial,Helvetica"><font
- color="#333333"><font size="-1">Int&eacute;grate  con tu equipo colaborativo 
-y sigue las indicaciones         del profesor.&nbsp;</font></font></font></li>
-                     <li> <font face="Arial,Helvetica"><font
- color="#333333"><font size="-1">Junto con tus compa&ntilde;eros de equipo, 
- analiza cada uno de        los ejercicios que se presentan a continuaci&oacute;n. 
- Identifiquen,   en   equipo,  cual ser&iacute;a el algoritmo para la soluci&oacute;n 
- de cada   uno  de los  ejercicios. Recuerden documentarlos en sus hojas membretadas.&nbsp;</font></font></font></li>
-                     <li> <font face="Arial,Helvetica"><font
- color="#333333"><font size="-1">De manera individual escribe un programa 
- en C para cada uno de        los ejercicios. Recuerda basarte en el algoritmo 
- que se gener&oacute;    en   el equipo.&nbsp;</font></font></font></li>
-                     <li> <font face="Arial,Helvetica"><font
- color="#333333"><font size="-1">Una vez que hayas terminado tu programa, 
- es tu responsabilidad        ayudar a tus compa&ntilde;eros de equipo a que
- terminen su programa.</font></font></font></li>
-                     <li> <font face="Arial,Helvetica"><font
- color="#333333"><font size="-1">Entrega, v&iacute;a la plataforma, los archivos 
-             <b>*.c</b> que        contengan los programas en C.</font></font></font><br>
-                     </li>
+                   <li> <font size="-1" color="#333333" face="Arial,Helvetica">
+				   Desarrolla e implementa, en conjunto con el profesor, las 
+				   siguientes funciones y procedimientos. </font></li>
                                                                         
                                                                         
                                    
@@ -6529,560 +6576,342 @@ y sigue las indicaciones         del profesor.&nbsp;</font></font></font></li>
       <blockquote>                                                       
                          
                            
-        <div align="center"><font color="#663366"><b><font
- face="Arial,Helvetica">"M&eacute;todo de Gauss"</font></b></font></div>
-                                                                        
-                
-        <blockquote><font size="-1" face="Helvetica, Arial, sans-serif">El 
-        m&eacute;todo de Gauss es utilizado en &aacute;lbegra lineal para 
-m&uacute;ltiples        usos. Lleva el nombre de su inventor.&nbsp;</font><br>
-                           <font size="-1"
- face="Helvetica, Arial, sans-serif">Actualmente       una de las aplicaciones 
-  para las que m&aacute;s frecuentemente es usado     es  para la resoluci&oacute;n 
-  de sistemas de ecuaciones.</font><br>
-                           <font size="-1"
- face="Helvetica, Arial, sans-serif">La   metodolog&iacute;a     de c&oacute;mo 
-  aplicarlo se describe a continuaci&oacute;n.             </font><br>
-                           <font size="-1"
- face="Helvetica, Arial, sans-serif">Cabe    mencionar    que el <b>M&eacute;todo 
-  de Gauss</b> puede resolver sistemas    con <b>N</b>    n&uacute;mero de 
- ecuaciones. Sin embargo, para este ejercicio    vamos a recibir    como m&aacute;ximo
-  3 ecuaciones.</font>                              <br>
-                           <font size="-1"
- face="Helvetica, Arial, sans-serif">Para    explicar    mejor c&oacute;mo 
-  funciona el m&eacute;todo se van a ilustrar    los pasos  con  un ejemplo.&nbsp;</font><br>
-                           <font size="-1"
- face="Helvetica, Arial, sans-serif">Tomemos     como  ejemplo las ecuaciones: 
-            </font><br>
-                                                                        
-                                                                        
-                                                         
-          <ul>
-                                                                        
-                                                                        
-                                                                        
-                  
-            <ul>
-                               <li><b><font size="-1"
+          <div align="center">
+			  <font color="#663366"><b><font
+ face="Arial,Helvetica">&quot;Método de Gauss&quot;</font></b></font></div>
+		  <blockquote>
+			  <font size="-1" face="Helvetica, Arial, sans-serif">El método de 
+			  Gauss es utilizado en álbegra lineal para múltiples usos. Lleva el 
+			  nombre de su inventor.&nbsp;</font><br>
+			  <font size="-1"
+ face="Helvetica, Arial, sans-serif">Actualmente una de las aplicaciones para 
+			  las que más frecuentemente es usado es para la resolución de 
+			  sistemas de ecuaciones.</font><br>
+			  <font size="-1"
+ face="Helvetica, Arial, sans-serif">La metodología de cómo aplicarlo se 
+			  describe a continuación.             </font><br>
+			  <font size="-1"
+ face="Helvetica, Arial, sans-serif">Cabe mencionar que el <b>Método de Gauss</b> 
+			  puede resolver sistemas con <b>N</b>    número de ecuaciones. Sin 
+			  embargo, para este ejercicio vamos a recibir como máximo 3 
+			  ecuaciones.</font> <br>
+			  <font size="-1"
+ face="Helvetica, Arial, sans-serif">Para explicar mejor cómo funciona el método 
+			  se van a ilustrar los pasos con un ejemplo.&nbsp;</font><br>
+			  <font size="-1"
+ face="Helvetica, Arial, sans-serif">Tomemos como ejemplo las ecuaciones: 
+              </font><br>
+			  <ul>
+				  <ul>
+					  <li><b>
+					  <font size="-1"
  face="Helvetica, Arial, sans-serif">4X + 9Y + 12Z = 0</font></b></li>
-                               <li><b><font size="-1"
+					  <li><b>
+					  <font size="-1"
  face="Helvetica, Arial, sans-serif">3X + Y + 5Z = 2</font></b></li>
-                               <li><b><font size="-1"
+					  <li><b>
+					  <font size="-1"
  face="Helvetica, Arial, sans-serif">6X + 9Y + 2Z = 1</font></b></li>
-                                                                        
-                                                                        
-                                                                        
-                  
-            </ul>
-                                                                        
-                                                                        
-                                                         
-          </ul>
-                  <font size="-1" face="Helvetica, Arial, sans-serif">El
-formato     en  que   deber&aacute;s  recibir estas ecuaciones es el siguiente:</font><br>
-                         </blockquote>
-                                                                        
-                                                                        
-                                                                  
-        <blockquote><font size="-1" face="Helvetica, Arial, sans-serif"
+				  </ul>
+			  </ul>
+			  <font size="-1" face="Helvetica, Arial, sans-serif">El formato en 
+			  que deberás recibir estas ecuaciones es el siguiente:</font><br>
+		  </blockquote>
+		  <blockquote>
+			  <font size="-1" face="Helvetica, Arial, sans-serif"
  color="#ff0000"><strong><i>figura 1</i></strong><i>.</i></font><font
  size="-1" face="Helvetica, Arial, sans-serif"><img src="ejemplo.jpg"
- width="206" height="89" alt="">
-                    </font><br>
-                         </blockquote>
-                                                                        
-                                                                        
-                            
-        <blockquote>                                                    
-                                                                        
-                                                             
-          <p align="left"><font size="-1"
- face="Helvetica, Arial, sans-serif">Nota que para trabajar con este m&eacute;todo
-         s&oacute;lo necesitas los coeficientes de las ecuaciones, y por
-esto     es   importante el orden de estos, ya que su posici&oacute;n indica
-si  se   trata   de un coeficiente de <b>X</b>, <b>Y</b> o <b>Z</b>.&nbsp;
-          </font></p>
-                                                                        
-                                                                        
-                                                         
-                   <font size="-1" face="Helvetica, Arial, sans-serif"> 
-                   </font>                                              
-                                                                        
-                                                                  
-          <p align="left"><font size="-1"
- face="Helvetica, Arial, sans-serif">Esta matriz de coeficientes es la base
-         que utilizaremos para trabajar con el m&eacute;todo de Gauss.</font></p>
-                         </blockquote>
-                                                                        
-                        <font face="Arial,Helvetica"><font size="-1">&nbsp; 
- &nbsp;    &nbsp; &nbsp; &nbsp;</font></font>                            
-                                                       <font size="-1"
- face="Helvetica, Arial, sans-serif">Gauss tiene   dos operaciones   b&aacute;sicas:</font> 
-                                                                         
-         <font size="-1" face="Helvetica, Arial, sans-serif">           
-   </font>                                                              
-                                                      
-        <blockquote>                                                    
-                                                                        
-                                                                
-          <ul>
-                                             <li><b><font size="-1"
- face="Helvetica, Arial, sans-serif">Multiplicaci&oacute;n  de un escalar
-       por un rengl&oacute;n de la matriz.</font></b></li>
-                             <li><b><font size="-1"
- face="Helvetica, Arial, sans-serif">Intercambiar  renglones de la matriz.</font></b></li>
-                                                                        
-                                                                        
-                                                         
-          </ul>
-                                                        </blockquote>
-                 <b><font face="Arial,Helvetica"><font color="#0000ff">Ejercicios:</font></font></b><br>
-                                                                        
-                
-                       
-        <blockquote>                                                    
-                                                                        
-                 
-          <p><font face="Arial,Helvetica"><font size="-1">Construye un programa 
-      completo en C  libre  de warnings y errores, que incluya las siguientes 
-    funciones  o procedimientos:</font></font></p>
-                     </blockquote>
+ width="206" height="89" alt=""> </font><br>
+		  </blockquote>
+		  <blockquote>
+			  <p align="left">
+			  <font size="-1"
+ face="Helvetica, Arial, sans-serif">Nota que para trabajar con este método sólo 
+			  necesitas los coeficientes de las ecuaciones, y por esto es 
+			  importante el orden de estos, ya que su posición indica si se 
+			  trata de un coeficiente de <b>X</b>, <b>Y</b> o <b>Z</b>.&nbsp;
+          	</font></p>
+			  <font size="-1" face="Helvetica, Arial, sans-serif"></font>
+			  <p align="left">
+			  <font size="-1"
+ face="Helvetica, Arial, sans-serif">Esta matriz de coeficientes es la base que 
+			  utilizaremos para trabajar con el método de Gauss.</font></p>
+		  </blockquote>
+		  <font face="Arial,Helvetica"><font size="-1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font></font>
+		  <font size="-1"
+ face="Helvetica, Arial, sans-serif">Gauss tiene dos operaciones básicas:</font>
+		  <font size="-1" face="Helvetica, Arial, sans-serif"></font>
+		  <blockquote>
+			  <ul>
+				  <li><b><font size="-1"
+ face="Helvetica, Arial, sans-serif">Multiplicación de un escalar por un renglón 
+				  de la matriz.</font></b></li>
+				  <li><b><font size="-1"
+ face="Helvetica, Arial, sans-serif">Intercambiar renglones de la matriz.</font></b></li>
+			  </ul>
+		  </blockquote>
+		  <b><font face="Arial,Helvetica"><font color="#0000ff">Ejercicios:</font></font></b><br>
+		  <blockquote>
+			  <p><font face="Arial,Helvetica"><font size="-1">Construye un 
+			  programa completo en C libre de warnings y errores, que incluya 
+			  las siguientes funciones o procedimientos:</font></font></p>
+		  </blockquote>
                                                                         
                                                         
         <blockquote>                                                    
                                                                         
                  
-          <p><font face="Arial,Helvetica"><font size="-1">Utilizando la estructura 
+            <p><font face="Arial,Helvetica"><font size="-1">Utilizando la 
+			estructura 
                     <font color="#ff0000"><b>#define</b></font>, define las 
-  constantes                 <b>REN </b>de <b>3</b> y <b>COL</b> de <b>4</b>, 
-  que ser&aacute;n       el n&uacute;mero renglones y columnas respectivamente 
-  que tendr&aacute;&nbsp;       la matriz en el programa.</font></font></p>
-                                                                        
-                                                                        
-         
-          <p><font size="-1" face="Helvetica, Arial, sans-serif"
+			constantes                 <b>REN </b>de <b>3</b> y <b>COL</b> de <b>
+			4</b>, que serán el número renglones y columnas respectivamente que 
+			tendrá&nbsp; la matriz en el programa.</font></font></p>
+			<p>
+			<font size="-1" face="Helvetica, Arial, sans-serif"
  color="#3333ff"><em><strong>a) &nbsp;Capturar la matriz</strong></em></font><br>
-                  </p>
-                                                                        
-                                                                        
-         
-          <blockquote>                                                  
-                                                                        
-                                                                        
-                
-            <p><font face="Arial,Helvetica"><font size="-1">Crea el procedimiento 
-                  <b><font color="#3366ff">capturaMatriz</font></b>  que recibe
-      como  par&aacute;metros una matriz de flotantes de <b>REN</b> por 
-          <b>COL</b>.  El procedimiento pedir&aacute; al usuario un valor
-flotante      y lo almacenar&aacute;  en la localidad correspondiente en
-la matriz.  (hasta    que se llene la matriz  se repite el mismo proceso).</font></font></p>
-                                                                        
-                                                                        
-                                                                        
-          
-            <p><font size="-1" face="Helvetica, Arial, sans-serif">Tomemos 
-      como ejemplo las siguientes ecuaciones: </font><br>
-                    </p>
-                                                                        
-                                                                        
-                                                                        
-          
-            <ul>
-                                                                        
-                                                                        
-                                                                        
-                                            
-              <ul>
-                               <li><b><font size="-1"
+			</p>
+			<blockquote>
+				<p><font face="Arial,Helvetica"><font size="-1">Crea el 
+				procedimiento 
+                  <b><font color="#3366ff">capturaMatriz</font></b>  que recibe 
+				como parámetros una matriz de flotantes de <b>REN</b> por 
+          <b>COL</b>. El procedimiento pedirá al usuario un valor flotante y lo 
+				almacenará en la localidad correspondiente en la matriz. (hasta 
+				que se llene la matriz se repite el mismo proceso).</font></font></p>
+				<p><font size="-1" face="Helvetica, Arial, sans-serif">Tomemos 
+				como ejemplo las siguientes ecuaciones: </font><br></p>
+				<ul>
+					<ul>
+						<li><b>
+						<font size="-1"
  face="Helvetica, Arial, sans-serif">4X + 9Y + 12Z = 0</font></b></li>
-                               <li><b><font size="-1"
+						<li><b>
+						<font size="-1"
  face="Helvetica, Arial, sans-serif">3X + &nbsp;Y&nbsp; +&nbsp; 5Z = 2</font></b></li>
-                               <li><b><font size="-1"
+						<li><b>
+						<font size="-1"
  face="Helvetica, Arial, sans-serif">6X + 9Y +&nbsp; 2Z = 1</font></b></li>
-                                                                        
-                                                                        
-                                                                        
-                                            
-              </ul>
-                                                                        
-                                                                        
-                                                                        
-          
-            </ul>
-                     <font size="-1" face="Helvetica, Arial, sans-serif">El 
- formato     en  que  deber&aacute; llenar la matriz ser&iacute;a el siguiente:</font><br>
-             <br>
-             <big><font face="Helvetica, Arial, sans-serif" size="-1"><big><b>ejemplo 
-=<br>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4.0&nbsp;&nbsp;&nbsp; 
-9.0&nbsp;&nbsp;&nbsp; 12.0&nbsp;&nbsp;&nbsp; 0.0<br>
- &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
-3.0&nbsp;&nbsp;&nbsp; 1.0&nbsp;&nbsp;&nbsp; &nbsp; 5.0&nbsp;&nbsp;&nbsp; 2.0<br>
- &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
-6.0&nbsp;&nbsp;&nbsp; 9.0&nbsp;&nbsp;&nbsp; &nbsp; 2.0&nbsp;&nbsp;&nbsp; 1.0</b></big></font></big><br>
-                         </blockquote>
-                                                                        
-                                                                        
-         
-          <p><font size="-1" face="Helvetica, Arial, sans-serif"
+					</ul>
+				</ul>
+				<font size="-1" face="Helvetica, Arial, sans-serif">El formato 
+				en que deberá llenar la matriz sería el siguiente:</font><br>
+				<br><big><font face="Helvetica, Arial, sans-serif" size="-1">
+				<big><b>ejemplo =<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4.0&nbsp;&nbsp;&nbsp; 9.0&nbsp;&nbsp;&nbsp; 12.0&nbsp;&nbsp;&nbsp; 0.0<br>
+				&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 3.0&nbsp;&nbsp;&nbsp; 1.0&nbsp;&nbsp;&nbsp; &nbsp; 5.0&nbsp;&nbsp;&nbsp; 2.0<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+				6.0&nbsp;&nbsp;&nbsp; 9.0&nbsp;&nbsp;&nbsp; &nbsp; 2.0&nbsp;&nbsp;&nbsp; 1.0</b></big></font></big><br>
+			</blockquote>
+			<p>
+			<font size="-1" face="Helvetica, Arial, sans-serif"
  color="#3333ff"><em><strong>b) &nbsp;Imprimir la matriz</strong></em></font><br>
-                   </p>
-                                                                        
-                                                                        
-         
-          <blockquote>                                                  
-                                                                        
-                                                                        
-                
-            <p><font face="Arial,Helvetica"><font size="-1">Crea el procedimiento 
-                  <b><font color="#3366ff">imprimeMatriz</font></b>,  que 
-recibe       como par&aacute;metros una matriz de flotantes de <b>REN </b>por 
-                     <b>COL</b>. El procedimiento desplegar&aacute; en pantalla 
-    el contenido   de la matriz.</font></font>           </p>
-                         </blockquote>
-                                                                        
-                                                                        
-         
-          <blockquote>                                                  
-                                                          <font
- face="Helvetica, Arial, sans-serif" size="-1"><b>NOTA:</b>    Les sugiero 
-que para imprimir la matriz de flotantes utilicen el siguiente    formato:<br>
-                    <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>printf(<big><font
- color="#ff0000">&#8220;%6.1f&#8221;</font></big>, M[i][j])</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               </font><font face="Helvetica, Arial, sans-serif"
- size="-1"><br>
-                  </font>                                               
-                              
-            <blockquote><font face="Helvetica, Arial, sans-serif"
- size="-1">Esto les permitir&aacute; tener 6 espacios a la izquierda y 1
-solo decimal.</font><br>
-                  </blockquote>
-                                                                        
-          
-            <blockquote><img src="img2.gif" alt="" width="197"
- height="72">
-                    <br>
-                  </blockquote>
-                                                <font size="-1"
- face="Helvetica, Arial, sans-serif">            </font></blockquote>
-                                                                        
-                      
-            <font size="-1"
- face="Helvetica, Arial, sans-serif" color="#3333ff"><em><strong>c) &nbsp;Multiplicaci&oacute;n 
-de un escalar         por un rengl&oacute;n</strong></em></font>         
-                                                                        
-                                                           
-          <blockquote>                                                   
-                                                                        
-                                                                        
-                                                                        
-                                                          
-            <p><font face="Arial,Helvetica"><font size="-1">Crea el procedimiento
-                   <b><font color="#3366ff">renglonMatriz</font></b>, que
-recibe       como  par&aacute;metros una matriz de flotantes de <b>REN</b>
-por <b>COL</b>,       un entero           <b>renglon</b> y un flotante <b>num.</b>
-El procedimiento       multiplicar&aacute;  el <b>renglon</b> de la matriz
-por el valor de             <b>num</b>.</font></font>                 </p>
-                            <font face="Arial,Helvetica"><font size="-1"><b>Ejemplo:</b></font></font><ul>
-                             <li><font
- size="-1" face="Arial,Helvetica">Si   la  matriz    tiene los siguientes valores:</font></li>
-                                                                        
-                                                                        
-                                                                        
-          
-            </ul>
-                                                                        
-                                                                        
-                                                                        
-                        
-            <blockquote>                                                 
-                                                                        
-                                                                        
-                                                   
-              <blockquote>                                               
-                                                                        
-                                                                        
-                                                                        
-              
-                <p><font face="Arial,Helvetica"><font size="-1">2&nbsp;&nbsp;
-         5&nbsp;&nbsp; 6&nbsp;&nbsp; 4</font></font> <br>
-                              <font face="Arial,Helvetica"><font
- size="-1">3&nbsp;&nbsp;        4&nbsp;&nbsp;  5&nbsp;&nbsp; 1</font></font> 
-                <br>
-                              <font face="Arial,Helvetica"><font
- size="-1">7&nbsp;&nbsp;        8&nbsp;&nbsp;  5&nbsp;&nbsp; 6</font></font> 
-                </p>
-                             </blockquote>
-                           </blockquote>
-                                                                        
-                                                                        
-                                                                        
-          
-            <ul>
-                             <li><font face="Arial,Helvetica"><font
- size="-1">Despu&eacute;s        de llamar al procedimiento <b>renglonMatriz</b>
-  con el valor de renglon      de<b>  1</b> y el de num de <b>4.0</b>, los
- nuevos valores en la matriz    deber&aacute;n ser:</font></font><font
- face="Arial,Helvetica"><font size="-1"><br>
-                               </font></font></li>
-                                                                        
-                                                                        
-                                                                        
-          
-            </ul>
-                                                                        
-                                                                        
-                                                                        
-          
-            <blockquote>                                                 
-                                                                        
-                                                                        
-                                                   
-              <blockquote>                                               
-                                                                        
-                                                                        
-                                                                        
-              
-                <p><font face="Arial,Helvetica"><font size="-1">&nbsp; 2&nbsp;&nbsp;&nbsp; 
-         5&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp; 4</font></font><br>
-                               <b><font face="Arial,Helvetica"><font
- size="-1">12&nbsp;&nbsp;       16&nbsp; 20&nbsp;&nbsp; 4</font></font></b> 
-                  <br>
-                              <font face="Arial,Helvetica"><font
- size="-1">&nbsp;     7&nbsp;&nbsp;&nbsp;      8&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp; 
-6</font></font><font face="Arial,Helvetica"><font size="-1">&nbsp;&nbsp;</font></font></p>
-                             </blockquote>
-                           </blockquote>
-                                                      </blockquote>
-                                                                        
-                                                                        
-         
-          <p align="left"><font color="#3333ff"><em><strong>d) &nbsp;Intercambiar 
-        renglones de la matriz</strong></em></font></p>
-                                                                        
-                                  
-          <blockquote><font face="Arial,Helvetica"><font size="-1">Crea el 
-    procedimiento               <b><font color="#3366ff">intercambiaRenglones</font></b>, 
-    que   recibe  como par&aacute;metros una matriz de flotantes de <b>REN</b> 
-    por              <b>COL</b>,   un entero <b>renglon1</b> y un entero 
-           <b>renglon2.</b>       El procedimiento intercambiar&aacute; 
-los valores del <b>renglon1 </b>por       los valores del<b> renglon2</b> 
-de la  matriz.</font></font>                        <br>
-                     <br>
-                     <font face="Arial,Helvetica"><font size="-1"><b>Ejemplo:</b> 
-                  </font></font></blockquote>
-                                                                        
-                                                                        
-         
-          <blockquote>                                                   
-                                                                        
-                                                                        
-                                                          
-   
-            <ul>
-                             <li><font size="-1"
+			</p>
+			<blockquote>
+				<p><font face="Arial,Helvetica"><font size="-1">Crea el 
+				procedimiento 
+                  <b><font color="#3366ff">imprimeMatriz</font></b>, que recibe 
+				como parámetros una matriz de flotantes de <b>REN </b>por 
+                     <b>COL</b>. El procedimiento desplegará en pantalla el 
+				contenido de la matriz.</font></font> </p>
+			</blockquote>
+			<blockquote>
+				<font
+ face="Helvetica, Arial, sans-serif" size="-1"><b>NOTA:</b>    Les sugiero que 
+				para imprimir la matriz de flotantes utilicen el siguiente 
+				formato:<br>
+				<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>printf(<big><font
+ color="#ff0000">“%6.1f”</font></big>, M[i][j])</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </font><font face="Helvetica, Arial, sans-serif"
+ size="-1"><br></font>
+				<blockquote>
+					<font face="Helvetica, Arial, sans-serif"
+ size="-1">Esto les permitirá tener 6 espacios a la izquierda y 1 solo decimal.</font><br>
+				</blockquote>
+				<blockquote>
+					<img src="img2.gif" alt="" width="197"
+ height="72"> <br>
+				</blockquote>
+				<font size="-1"
+ face="Helvetica, Arial, sans-serif"></font>
+			</blockquote>
+			<font size="-1"
+ face="Helvetica, Arial, sans-serif" color="#3333ff"><em><strong>c) 
+			&nbsp;Multiplicación de un escalar por un renglón</strong></em></font>
+			<blockquote>
+				<p><font face="Arial,Helvetica"><font size="-1">Crea el 
+				procedimiento
+                   <span class="auto-style1">renglonMatriz</span>, que recibe 
+				como parámetros una matriz de flotantes de <b>REN</b>
+				por <b>COL</b>, un entero           <b>renglon</b> y un flotante <b>
+				num.</b>
+				El procedimiento multiplicará el <b>renglon</b> de la matriz por 
+				el valor de             <b>num</b>.</font></font> </p>
+				<font face="Arial,Helvetica"><font size="-1"><b>Ejemplo:</b></font></font><ul>
+					<li><font
+ size="-1" face="Arial,Helvetica">Si la matriz tiene los siguientes valores:</font></li>
+				</ul>
+				<blockquote>
+					<blockquote>
+						<p><font face="Arial,Helvetica"><font size="-1">2&nbsp;&nbsp; 
+						5&nbsp;&nbsp; 6&nbsp;&nbsp; 4</font></font> <br>
+						<font face="Arial,Helvetica"><font
+ size="-1">3&nbsp;&nbsp; 4&nbsp;&nbsp; 5&nbsp;&nbsp; 1</font></font> <br>
+						<font face="Arial,Helvetica"><font
+ size="-1">7&nbsp;&nbsp; 8&nbsp;&nbsp; 5&nbsp;&nbsp; 6</font></font> </p>
+					</blockquote>
+				</blockquote>
+				<ul>
+					<li><font face="Arial,Helvetica"><font
+ size="-1">Después de llamar al procedimiento <b>renglonMatriz</b>
+  				  con el valor de renglon de<b>  1</b> y el de num de <b>4.0</b>, 
+					los nuevos valores en la matriz deberán ser:</font></font></li>
+				</ul>
+				<blockquote>
+					<blockquote>
+						<p><font face="Arial,Helvetica"><font size="-1">&nbsp; 2&nbsp;&nbsp;&nbsp; 
+						5&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp; 4</font></font><br><b>
+						<font face="Arial,Helvetica"><font
+ size="-1">12&nbsp;&nbsp; 16&nbsp; 20&nbsp;&nbsp; 4</font></font></b> <br>
+						<font face="Arial,Helvetica"><font
+ size="-1">&nbsp; 7&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp; 6</font></font><font face="Arial,Helvetica"><font size="-1">&nbsp;&nbsp;</font></font></p>
+					</blockquote>
+				</blockquote>
+			</blockquote>
+			<p align="left"><font color="#3333ff"><em><strong>d) &nbsp;Intercambiar 
+			renglones de la matriz</strong></em></font></p>
+			<blockquote>
+				<font face="Arial,Helvetica"><font size="-1">Crea el 
+				procedimiento               <span class="auto-style1">
+				intercambiaRenglones</span>, que recibe como parámetros una 
+				matriz de flotantes de <b>REN</b> 
+    			por              <b>COL</b>, un entero <b>renglon1</b> y un 
+				entero 
+           <b>renglon2.</b>       El procedimiento intercambiará los valores del <b>
+				renglon1 </b>por los valores del<b> renglon2</b> 
+				de la matriz.</font></font> <br><br><font face="Arial,Helvetica">
+				<font size="-1"><b>Ejemplo:</b> </font></font>
+			</blockquote>
+			<blockquote>
+				<ul>
+					<li><font size="-1"
  face="Helvetica, Arial, sans-serif">S</font><font
- face="Arial,Helvetica"><font size="-1">i la matriz tiene los siguientes valores:</font></font></li>
-                                                                        
-                                                                        
-                                                                        
-          
-            </ul>
-                                                                        
-                                                                        
-                                                                        
-                        
-            <blockquote>                                                 
-                                                                        
-                                                                        
-                                                   
-              <blockquote>                                               
-                                                                        
-                                                                        
-                                                                        
-              
-                <p><font face="Arial,Helvetica"><font size="-1">2&nbsp;&nbsp;
-         5&nbsp;&nbsp; 6&nbsp;&nbsp; 4</font></font> <br>
-                              <b><font face="Arial,Helvetica"><font
- size="-1">3&nbsp;&nbsp;       4&nbsp;&nbsp;  5&nbsp;&nbsp; 1</font></font>
-                  <br>
-                               <font face="Arial,Helvetica"><font
- size="-1">7&nbsp;&nbsp;        8&nbsp;&nbsp;  5&nbsp;&nbsp; 6</font></font></b></p>
-                             </blockquote>
-                           </blockquote>
-                                                                        
-                                                                        
-                                                                        
-          
-            <ul>
-                             <li><font face="Arial,Helvetica"><font
- size="-1">Despu&eacute;s        de llamar al procedimiento <b>intercambiaRenglones</b>
-  con el valor  del                  <b>renglon1               </b>= <b>1</b>
-  y el de <b>renglon2</b>       = <b>2</b>, los nuevos valores en la matriz
-  deber&aacute;n ser:</font></font></li>
-                                                                        
-                                                                        
-                                                                        
-          
-            </ul>
-                                                                        
-                                                                        
-                                                                        
-          
-            <blockquote>                                                 
-                                                                        
-                                                                        
-                                                   
-              <blockquote><font face="Arial,Helvetica"><font size="-1">2&nbsp;&nbsp;
-         5&nbsp;&nbsp; 6&nbsp;&nbsp; 4</font></font><br>
-                               <b><font face="Arial,Helvetica"><font
- size="-1">7&nbsp;&nbsp;       8&nbsp;&nbsp;  5&nbsp;&nbsp; 6</font></font></b><br>
-                               <b><font face="Arial,Helvetica"><font
- size="-1">3&nbsp;&nbsp;       4&nbsp;&nbsp;  5&nbsp;&nbsp; 1</font></font></b><br>
-                             </blockquote>
-                           </blockquote>
-                                                                        
-                                                                        
-                                                                        
-                                     
-                  </blockquote>
-                                                                        
-                                                                        
-         
-          <p><font color="#3333ff"><em><strong>f) &nbsp;</strong></em></font><font
- color="#3333ff"><em><strong>&nbsp;Sumar diagonal inversa</strong></em></font> 
-                  <br>
-                                                                        
-                                                </p>
-                                                           
-          <blockquote>                                                  
-                                                                        
-                                                                        
-                
-            <p><font face="Arial,Helvetica"><font size="-1">Crea la funci&oacute;n 
-              <font color="#3333ff"><b>sumaDiagonalInversa</b></font>, que 
- recibe como par&aacute;metros     una matriz de valores flotantes de <b>REN 
-             </b>por <b>COL</b>. La funci&oacute;n     regresar&aacute; el 
- resultado de sumar los elementos contenidos en la diagonal    inversa de 
-la matriz.</font></font>             <br>
-                                        </p>
-                                                                        
-                                                             </blockquote>
-                                                                        
-                                                                        
-         
-          <blockquote><font face="Helvetica, Arial, sans-serif"
- size="-1"><b>Ejemplo:</b><br>
-                           </font>                                      
-                                                                        
-                                                                        
-                               
-            <ul>
-                   <li><font face="Helvetica, Arial, sans-serif"
- size="-1">Para       la siguiente matriz:&nbsp;</font></li>
-                                                                     
-            </ul>
-                                                                        
-                                                                        
-                                                                        
-          
-            <blockquote><font face="Helvetica, Arial, sans-serif"
- size="-1" color="#000000"><font color="#ff0000"><font color="#000000">4.0</font> 
-                </font>&nbsp;     &nbsp;9.0&nbsp;&nbsp; &nbsp;12.0 &nbsp; 
-&nbsp;                <font color="#ff0000">&nbsp;<b>0</b></font></font><font
- color="#000000"><br>
-                           </font><font color="#000000"><font
- face="Helvetica, Arial, sans-serif" size="-1">5.0 &nbsp; <font
- color="#ff0000">&nbsp;<font color="#000000">5.5</font></font> &nbsp;   &nbsp;<font
+ face="Arial,Helvetica"><font size="-1">i la matriz tiene los siguientes 
+					valores:</font></font></li>
+				</ul>
+				<blockquote>
+					<blockquote>
+						<p><font face="Arial,Helvetica"><font size="-1">2&nbsp;&nbsp; 
+						5&nbsp;&nbsp; 6&nbsp;&nbsp; 4</font></font> <br><b>
+						<font face="Arial,Helvetica"><font
+ size="-1">3&nbsp;&nbsp; 4&nbsp;&nbsp; 5&nbsp;&nbsp; 1</font></font> <br>
+						<font face="Arial,Helvetica"><font
+ size="-1">7&nbsp;&nbsp; 8&nbsp;&nbsp; 5&nbsp;&nbsp; 6</font></font></b></p>
+					</blockquote>
+				</blockquote>
+				<ul>
+					<li><font face="Arial,Helvetica"><font
+ size="-1">Después de llamar al procedimiento <b>intercambiaRenglones</b>
+  				  con el valor del                  <b>renglon1               </b>
+					= <b>1</b>
+  				  y el de <b>renglon2</b>       = <b>2</b>, los nuevos valores 
+					en la matriz deberán ser:</font></font></li>
+				</ul>
+				<blockquote>
+					<blockquote>
+						<font face="Arial,Helvetica"><font size="-1">2&nbsp;&nbsp; 5&nbsp;&nbsp; 6&nbsp;&nbsp; 
+						4</font></font><br><b>
+						<font face="Arial,Helvetica"><font
+ size="-1">7&nbsp;&nbsp; 8&nbsp;&nbsp; 5&nbsp;&nbsp; 6</font></font></b><br>
+						<b><font face="Arial,Helvetica"><font
+ size="-1">3&nbsp;&nbsp; 4&nbsp;&nbsp; 5&nbsp;&nbsp; 1</font></font></b><br>
+					</blockquote>
+				</blockquote>
+			</blockquote>
+			<p><font color="#3333ff"><em><strong>e) &nbsp;</strong></em></font><font
+ color="#3333ff"><em><strong>&nbsp;Sumar diagonal inversa</strong></em></font>
+			<br></p>
+			<blockquote>
+				<p><font face="Arial,Helvetica"><font size="-1">Crea la función 
+                <font color="#3333ff"><b>sumaDiagonalInversa</b></font>, que 
+				recibe como parámetros una matriz de valores flotantes de <b>REN 
+             </b>por <b>COL</b>. La función regresará el resultado de sumar los 
+				elementos contenidos en la diagonal inversa de la matriz.</font></font> <br></p>
+			</blockquote>
+			<blockquote>
+				<font face="Helvetica, Arial, sans-serif"
+ size="-1"><b>Ejemplo:</b><br></font>
+				<ul>
+					<li><font face="Helvetica, Arial, sans-serif"
+ size="-1">Para la siguiente matriz:&nbsp;</font></li>
+				</ul>
+				<blockquote>
+					<font face="Helvetica, Arial, sans-serif"
+ size="-1" color="#000000"><font color="#ff0000"><font color="#000000">4.0</font>
+					</font>&nbsp; &nbsp;9.0&nbsp;&nbsp; &nbsp;12.0 &nbsp; &nbsp;                <font color="#ff0000">
+					&nbsp;<b>0</b></font></font><font
+ color="#000000"><br></font><font color="#000000">
+					<font
+ face="Helvetica, Arial, sans-serif" size="-1">5.0 &nbsp; 
+					<font
+ color="#ff0000">&nbsp;<font color="#000000">5.5</font></font> &nbsp; &nbsp;<font
  color="#ff6600"><font color="#ff0000"><b>11.0</b></font> </font>&nbsp; 2.0</font><br>
-                           </font><font
- face="Helvetica, Arial, sans-serif" size="-1" color="#000000"> 6.0 &nbsp;
-   &nbsp;<font color="#ff0000"><b>9.0                </b></font>&nbsp; &nbsp;
-               <font color="#ff0000">&nbsp;<font color="#000000">2.0</font></font>
- &nbsp; 1.0</font>                                </blockquote>
-                                                                        
-                                                                        
-                                   
-          
-            <ul>
-                   <li>                                                 
-                                                                        
-                                                                        
-                                                                         
-               
-                <div align="left">                                       
-                                                                        
-                                                                        
-                                                                        
-                      
-                <p><font face="Arial,Helvetica"><font size="-1"><b>sumaDiagonalInversa 
-                  </b>debe regresar como resultado: <b>20.0</b></font></font></p>
-                             </div>
-                           </li>
-                                                                     
-            </ul>
-                       </blockquote>
-                                                           
-                       <font color="#3333ff"><em><strong>Men&uacute; principal</strong></em></font>
-                                                                        
-                                                                        
-              
-          <blockquote><font face="Arial,Helvetica"><font size="-1">Escribe 
-      el c&oacute;digo necesario dentro del <b><font color="#3366ff">main</font></b> 
-        para desplegar el siguiente men&uacute; y brindarle al usuario la 
-oportunidad        de ejecutar cualquiera de las funciones o procedimientos 
-que han sido    construidos:</font></font></blockquote>
-                                                                        
-                                                                        
-         
-          <blockquote><b><font face="Arial,Helvetica"><font
- color="#ff0000"><font size="-1">&nbsp;&nbsp;&nbsp; MENU</font></font></font></b> 
-                                                                         
-                                                                        
-                                                                        
-                      
-            <p><b><font face="Arial,Helvetica"><font color="#ff0000"><font
- size="-1">&nbsp;&nbsp;&nbsp; a. Capturar matriz</font></font></font></b> 
-                     <br>
-                              <b><font face="Arial,Helvetica"><font
- color="#ff0000"><font size="-1">&nbsp;&nbsp;&nbsp; b. Imprimir matriz</font></font></font></b> 
-                     <br>
-                              <b><font face="Arial,Helvetica"><font
- color="#ff0000"><font size="-1">&nbsp;&nbsp;&nbsp; c. Multiplicar renglon
-     de la matriz<br>
-                             </font></font></font></b> <b><font
+					</font>
+					<font
+ face="Helvetica, Arial, sans-serif" size="-1" color="#000000">6.0 &nbsp; &nbsp;<font color="#ff0000"><b>9.0                </b></font>
+					&nbsp; &nbsp;
+               	 <font color="#ff0000">&nbsp;<font color="#000000">2.0</font></font>
+ 				   &nbsp; 1.0</font>
+				</blockquote>
+				<ul>
+					<li>
+					<div align="left">
+						<p><font face="Arial,Helvetica"><font size="-1"><b>
+						sumaDiagonalInversa 
+                  	  </b>debe regresar como resultado: <b>20.0</b></font></font></p>
+					</div>
+					</li>
+				</ul>
+			</blockquote>
+			<p><font color="#3333ff"><em><strong>f) &nbsp;&nbsp;Menú principal</strong></em></font>
+			</p>
+			<blockquote>
+				<p><font size="-1" face="Arial,Helvetica">Crea el procedimiento<font color="#3333ff"><b> 
+				menu</b></font> que despliegue el siguiente menú en pantalla:</font></p>
+			</blockquote>
+			<blockquote>
+				<p><b><font
+ size="-1" color="#ff0000" face="Arial,Helvetica">&nbsp;&nbsp;&nbsp; a. Capturar 
+				matriz</font></b>
+				<br><b><font face="Arial,Helvetica"><font
+ color="#ff0000"><font size="-1">&nbsp;&nbsp;&nbsp; b. Imprimir matriz</font></font></font></b>
+				<br><b><font face="Arial,Helvetica"><font
+ color="#ff0000"><font size="-1">&nbsp;&nbsp;&nbsp; c. Multiplicar renglon de la 
+				matriz<br></font></font></font></b><b><font
  face="Arial,Helvetica"><font color="#ff0000"><font size="-1">&nbsp;&nbsp;&nbsp; 
-      d. Intercambiar renglones   de la matriz</font></font></font></b><br>
-                              <b><font face="Arial,Helvetica"><font
+				d. Intercambiar renglones de la matriz</font></font></font></b><br><b>
+				<font face="Arial,Helvetica"><font
  color="#ff0000"><font size="-1">&nbsp;&nbsp;&nbsp; e. Suma diagonal inversa</font></font></font></b><br>
-                         <b><font face="Arial,Helvetica"><font
- color="#ff0000"><font size="-1">&nbsp; &nbsp; f. Salir</font></font></font></b> 
-                            </p>
-                                                                        
-                                                                        
-                                                                        
-                                
-            <p><b><font face="Arial,Helvetica"><font color="#ff0000"><font
- size="-1">&nbsp;&nbsp;&nbsp; Pulse la opci&oacute;n deseada:</font></font></font></b> 
-                     </p>
-                              </blockquote>
-                                                                        
-                                                                        
-         
-          <ul>
-                             <li><font face="Arial,Helvetica"><font
- size="-1">Utilizando       el ciclo <b>do-while </b>cicle el programa hasta
-  que el usuario seleccione       opci&oacute;n de <b>Salir (s)</b></font></font></li>
-                             <li><font face="Arial,Helvetica"><font
- size="-1"><font color="#000000"><font color="#993399"><b>Guarda el archivo
-  con el nombre:</b></font>                     </font><b>
-							 <font
- color="#3333ff">z_matr&iacute;cula.c</font></b></font></font></li>
-                                                                        
-                                                                        
-                                                         
-          </ul>
+				<b><font face="Arial,Helvetica"><font
+ color="#ff0000"><font size="-1">&nbsp;&nbsp;&nbsp; s. Salir</font></font></font></b>
+				</p>
+				<p><b><font face="Arial,Helvetica"><font color="#ff0000">
+				<font
+ size="-1">&nbsp;&nbsp;&nbsp; Pulse la opción deseada:</font></font></font></b>
+				</p>
+			</blockquote>
+			<ul>
+				<li><font size="-1" face="Arial,Helvetica">Escribe el código 
+				necesario dentro del <b><font color="#3366ff">main</font></b> 
+        		para desplegar el <strong>menu</strong> y brindarle al usuario 
+				la oportunidad de ejecutar cualquiera de las funciones o 
+				procedimientos que han sido construidos:</font><b><font size="-1" color="#ff0000" face="Arial,Helvetica">&nbsp;&nbsp;</font></b></li>
+				<li><font
+ size="-1" face="Arial,Helvetica">Utilizando el ciclo <b>do-while </b>cicle el 
+				programa hasta que el usuario seleccione opción de <b>Salir (s)</b></font></li>
+				<li><font face="Arial,Helvetica"><font
+ size="-1"><font color="#000000"><font color="#993399"><b>Guarda el archivo con 
+				el nombre:</b></font> </font><b><font
+ color="#3333ff">z_matrícula.c</font></b></font></font></li>
+			</ul>
                      </blockquote>
                                                                         
                                                                         
@@ -7102,8 +6931,8 @@ que han sido    construidos:</font></font></blockquote>
  width="70" align="left">
                    <br>
                         <b><font face="Arial,Helvetica"><font
- color="#330033">Forma    de  entrega:</font></font></b>         <br>
-                  &nbsp;                                                
+ color="#330033">Forma de entrega:</font></font></b>         <br>
+                   &nbsp;                                                
                                                                         
      
       <ul>
@@ -7112,48 +6941,17 @@ que han sido    construidos:</font></font></blockquote>
                                    
         <ul>
                    <li> <font size="-1" color="#333333" face="Arial,Helvetica">
-				   Formato de entrega: <strong>c</strong></font></li>
+				   Formato de entrega: <strong>.c</strong></font></li>
                     <li> <font size="-1" color="#333333" face="Arial,Helvetica">
 					Nombre del entregable: <b>z_matricula.c</b></font></li>
                     <li> <font size="-1" color="#333333" face="Arial,Helvetica">
-					Medio de entrega: Se entrega en Canvas en la secci�n de
-					<strong>Laboratorio: Arreglos</strong></font></li>
+					Medio de entrega: Se entrega en Canvas en la sección de
+					<strong>Laboratorio: Matrices</strong></font></li>
                                                                         
                                                                         
                                    
         </ul>
-                   <font face="Arial,Helvetica"><font color="#ffffff"><font
- size="-1">.</font></font></font>            <br>
-                          <b><font face="Arial,Helvetica"><font
- color="#3333ff"><font size="-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INSTRUCCIONES
-   PARA ENVIAR TU LABORATORIO       POR CANVAS</font></font></font></b>
-          <br>
-                  &nbsp;                                                
-                                                                        
-                                         
-        <ul>
-                   <li> <font face="Arial,Helvetica"><font
- color="#333333"><font size="-1">Haz clic en el bot�n de <strong>Tareas</strong>. 
-				   Haz clic en la actividad de <strong>Laboratorio: Arreglos</strong>.</font></font></font></li>
-                    <li> <font size="-1" color="#333333" face="Arial,Helvetica">
-					Haz clic en el bot�n de <strong>Entregar tarea</strong>.</font></li>
-                    <li> <font size="-1" color="#333333" face="Arial,Helvetica">
-					En el f�lder de <strong>Carga del archivo</strong>, haz clic 
-					en el bot�n de <strong>Examinar </strong>y localiza el 
-					archivo <strong>*.py</strong>. Si necesitas agregar m�s 
-					archivos, haz clic en <strong>+Agregue otro archivo</strong>, 
-					haz clic en el bot�n de<strong> Examinar </strong>y localiza 
-					el archivo *.py.</font></li>
-                    <li> <font size="-1" color="#333333" face="Arial,Helvetica">
-					Cuando hayas terminado de subir tus archivos, haz clic en el 
-					bot�n de <strong>Entregar tarea</strong> y listo!!</font></li>
-                                                                        
-                                                                        
-                                   
-        </ul>
-                                                                        
-                                                                       
-      </ul>
+				   </ul>
 						</td>
                    </tr>
                                                                         
