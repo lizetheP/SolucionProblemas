@@ -1,0 +1,16 @@
+Visual C
+
+CLEaR
+make hello COMPILARLO
+./hello EJECUTARLO
+
+int main(void)
+{
+   printf("hello");
+   return 0;
+}
+
+TERMINAL
+make pruebavs.c
+
+code runner para mac es de paga. 

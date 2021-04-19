@@ -1,0 +1,5 @@
+Buen esfuerzo, solamente tengo algunos comentarios:
+La función imprime5pares no funciona correctamente.
+La función f2 no funciona correctamente.
+La función cuentaMultiplosX no funciona correctamente.
+La función potencia no funciona, no hace lo que se pide.
